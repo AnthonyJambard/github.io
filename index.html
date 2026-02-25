@@ -7,29 +7,54 @@
     <meta name="description" content="Jambard.Tech, LLC is an IT consulting company specializing in network design, workstation deployment, and other IT solutions.">
     <meta name="keywords" content="HTML, CSS">
     <meta name="author" content="Anthony Jambard">
-    <link rel="stylesheet" href="/static/css/stylesheet.css" type="text/css">
-    <link rel="icon" href="/static/images/favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="static/css/stylesheet.css">
+    <link rel="icon" href="static/images/favicon.svg" type="image/svg+xml">
     <title>Index</title>
 </head>
+
 <body>
     <header>
-        <h1>Jambard.Tech, LLC</h1>
-        <nav>
-            <ul>
-                <li><a href="/index.html">Home</a></li>
-                <li><a href="/products.html">Products</a></li>
-                <li><a href="/services.html">Services</a></li>
-                <li><a href="/deployments.html">Deployments</a></li>
-                <li><a href="/login.html">Login</a></li>
-                <li><a href="/contact.html">Contact</a></li>
-            </ul>
-        </nav>
+      <div class="navbar">
+        <div class="logo">
+        <img src="static/images/logo.svg" alt="Jambard.Tech Logo" class="logo">
+        </div>
+        <div class="dropdown">
+        <button class="dropbtn">Products 
+        <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+        <a href="#">Networking</a>
+        <a href="#">Computation</a>
+        <a href="#">Multimedia</a>
+        </div>
+        </div>
+        <div class="dropdown">
+        <button class="dropbtn">Services
+        <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+        <a href="#">Network Design</a>
+        <a href="#">Workstation Deployment</a>
+        <a href="#">IT Solutions</a>
+        </div>
+        </div>
+        <a href="deployments.html">Deployments</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+        <a href="login.html">Login</a>
+      </div>
     </header>
+
     <main>
         <section>
-            <h2>Welcome to Jambard.Tech, LLC</h2>
+            <h1>Welcome to Jambard.Tech, LLC</h1>
             <p>At Jambard.Tech, we specialize in providing top-notch IT consulting services. Our expertise includes network design, workstation deployment, and a wide range of IT solutions tailored to meet the unique needs of our clients.</p>
             <p>Our team of experienced professionals is dedicated to delivering innovative and efficient IT solutions that help businesses thrive in today's digital landscape. Whether you're looking to optimize your existing infrastructure or implement new technologies, we have the skills and knowledge to assist you every step of the way.</p>
         </section>
+    </main>
+
+    <footer>
+        <p>&copy; <a href="about.html">2026 Jambard.Tech, LLC. All rights reserved.</a></p>
+    </footer>
 </body>
 </html>
